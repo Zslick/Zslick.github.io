@@ -1,0 +1,166 @@
+html{
+    background-color: #302F63;
+}
+
+.background{
+    position: absolute;
+    width: 620px;
+    height: 1300px;
+    background-color: #E1E1E3;
+    top: 0px;
+    left: 0px;
+}
+
+.profile{
+    position: absolute;
+    width: 224px;
+    height: 224px;
+    background-color: #1B1A3F;
+    border-radius: 50%;
+    top: 10px;
+    left: 195px;
+}
+
+.profile-image {
+    position: absolute;
+    width: 212px;
+    height: 212px;
+    border-radius: 100%;
+    top: 15px;
+    left: 201px;
+}
+.name p{
+    position: absolute;
+    font-size:30px;
+    top: -5px;
+    left: 19px;
+    color: #E1E1E3;
+
+
+}
+.name{
+    position: absolute;
+    width: 300px;
+    height: 80px;
+    background-color: #1B1A3F;
+    border-radius: 40px;
+    top: 245px;
+    left: 155px;
+}
+
+.dashboard p{
+    position: absolute;
+    font-size:20px;
+    top: -5px;
+    left: 70px;
+    color: #E1E1E3;
+
+}
+.dashboard{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    background-color: #1B1A3F;
+    border-radius: 5px;
+    top: 350px;
+    left: 206px;
+}
+
+.curbal p{
+    position: absolute;
+    font-size:30px;
+    top: 70px;
+    left: 70px;
+    color: #E1E1E3;
+    
+}
+
+.curbal h1{
+    color: #E1E1E3;
+    font-family: 'Share Tech Mono', monospace;
+    margin-bottom: 40;
+    margin-left: 50px;
+
+
+}
+.curbal{
+    position: absolute;
+    width: 340px;
+    height: 140px;
+    background-color: #1B1A3F;
+    border-radius: 1px;
+    top: 410px;
+    left: 135px;
+}
+
+hr{
+    position: absolute;
+    width: 255px;
+    size: 0px;
+    color: rgb(243, 243, 243);
+    margin-top: 10px;
+    left: 40px;
+    
+}
+
+.income{
+    position: absolute;
+    width: 170px;
+    height: 50px;
+    background-color: #1B1A3F;
+    border-radius: 50px;
+    top: 580px;
+    left: 225px;
+    font-size: 30px;
+    color: #E1E1E3;
+}
+.income:hover{
+    opacity: 0.6;
+
+ }
+
+
+.expenses{
+    position: absolute;
+    width: 170px;
+    height: 50px;
+    background-color: #1B1A3F;
+    border-radius: 50px;
+    top: 640px;
+    left: 225px;
+    font-size: 30px;
+    color: #E1E1E3;
+
+}
+.expenses:hover{
+    opacity: 0.6;
+
+ }
+
+
+.transaction{
+    position: absolute;
+    width: 170px;
+    height: 50px;
+    background-color: #1B1A3F;
+    border-radius: 50px;
+    top: 700px;
+    left: 225px;
+    font-size: 30px;
+    color: #E1E1E3;
+
+}
+.transaction:hover{
+    opacity: 0.6;
+
+ }
+
+.view{
+    position: absolute;
+    width: 840px;
+    height: 450px;
+    background-color: #E1E1E3;
+    border-radius: px;
+    top: 410px;
+    left: 800px;
+}
