@@ -50,9 +50,9 @@ html{
 
 .dashboard p{
     position: absolute;
-    font-size:20px;
-    top: -5px;
-    left: 70px;
+    font-size:30px;
+    top: -15px;
+    left: 35px;
     color: #E1E1E3;
 
 }
@@ -126,7 +126,7 @@ hr{
     height: 50px;
     background-color: #1B1A3F;
     border-radius: 50px;
-    top: 640px;
+    top: 650px;
     left: 225px;
     font-size: 30px;
     color: #E1E1E3;
@@ -144,7 +144,7 @@ hr{
     height: 50px;
     background-color: #1B1A3F;
     border-radius: 50px;
-    top: 700px;
+    top: 720px;
     left: 225px;
     font-size: 30px;
     color: #E1E1E3;
@@ -155,12 +155,18 @@ hr{
 
  }
 
+ .calendar{
+    position: absolute;
+    right: 50px;
+
+ }
+
 .view{
     position: absolute;
     width: 840px;
     height: 450px;
     background-color: #E1E1E3;
     border-radius: px;
-    top: 410px;
+    top: 320px;
     left: 800px;
 }
