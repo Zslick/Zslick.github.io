@@ -1,0 +1,17 @@
+html{
+    background-color: bisque;
+}
+
+.picture{
+   position: absolute;
+    width: 212px;
+    height: 212px;
+}
+
+.story{
+  position: absolute;
+    font-size:30px;
+    top: 275px;
+    left: 19px;
+    color: black;
+}
