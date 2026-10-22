@@ -1,4 +1,4 @@
-@import 'tailwindcss';
+﻿@import 'tailwindcss';
 
 
 /* =========================
@@ -249,11 +249,11 @@ nav a:hover {
   scroll-snap-align: start;
 }
 
-.video-card video {
+.video-card iframe {
   display: block;
   width: 100%;
   aspect-ratio: 9 / 16;
-  object-fit: cover;
+  border: 0;
   background: #000;
 }
 

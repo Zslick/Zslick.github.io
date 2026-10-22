@@ -1,6 +1,14 @@
-import { useRef } from 'react'
+﻿import { useRef } from 'react'
+import { toGoogleDrivePreviewUrl } from '../utils/googleDrive.js'
 
-const projects = Array.from({ length: 6 }, (_, index) => index + 1)
+const projects = [
+  { id: 1, fileId: '1f5dXJq_TzoBVNPQqfyMptFEfcPgWRix-' },
+  { id: 2, fileId: '1ABzBvWw9QO3nTyBLjtqPXyufVQHtCtEZ' },
+  { id: 3, fileId: '1wnPVEl9B15Wq1USGnkyeoOcoJ3PVDtaV' },
+  { id: 4, fileId: '1tYUj7MQ3zjF8xLr3f5kLseIROX8yD3NW' },
+  { id: 5, fileId: '1oEnOZLirqGmiY9f_4G8PBkMD1WRqPeBE' },
+  { id: 6, fileId: '1dsEbuAsBvrZ8FMgcJ3dSEl7CcVqISTkz' },
+]
 
 export default function Projects() {
   const galleryRef = useRef(null)
@@ -29,11 +37,15 @@ export default function Projects() {
           <button type="button" className="video-gallery-button" aria-label="Scroll videos right" onClick={() => scrollGallery(1)}>&gt;</button>
         </div>
         <div className="video-gallery-track" ref={galleryRef} role="region" aria-label="Video projects">
-          {projects.map((projectId) => (
-            <article className="card video-card" key={projectId}>
-              <video controls preload="metadata" playsInline aria-label={`Portfolio video ${projectId}`}>
-                <source src={`/videos/project-${projectId}.mp4`} type="video/mp4" />
-              </video>
+          {projects.map((project) => (
+            <article className="card video-card" key={project.id}>
+              <iframe
+                src={toGoogleDrivePreviewUrl(project.fileId)}
+                title={`Portfolio video ${project.id}`}
+                allow="autoplay; encrypted-media; fullscreen; picture-in-picture"
+                allowFullScreen
+                loading="lazy"
+              />
             </article>
           ))}
         </div>
