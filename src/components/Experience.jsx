@@ -14,7 +14,7 @@ export default function Experience() {
           </ul>
         </article>
         <article>
-          <h3>Freelance or Personal Projects</h3>
+          <p>Freelance or Personal Projects | 2+ Years Experience</p>
           <ul className="experience-points">
             <li>Edited social media and promotional videos based on project requirements</li>
             <li>Assisted with revisions and content improvements</li>
